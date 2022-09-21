@@ -1,6 +1,6 @@
 /* eslint-disable */
 export default {
-  displayName: 'vecna',
+  displayName: 'todo',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   globals: {
@@ -9,7 +9,7 @@ export default {
       stringifyContentPathRegex: '\\.(html|svg)$',
     },
   },
-  coverageDirectory: '../../coverage/apps/vecna',
+  coverageDirectory: '../../coverage/apps/todo',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': 'jest-preset-angular',
   },
